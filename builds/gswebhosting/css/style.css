@@ -1,0 +1,123 @@
+body {
+	height: 100%;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .nav-link {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#showcase {
+	background: url("../img/webhostmain.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+#hostingShowcase {
+	position: relative;
+	background: url("../img/hosting.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+#wordpressShowcase {
+	position: relative;
+	background: url("../img/wordpress-hosting.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+#showcaseInfo {
+	text-align: left;
+	font-size: 1.2rem;
+	padding-top: 180px;
+	padding-left: 70px;
+}
+
+#hostingInfo {
+	color: #fff;
+	font-size: 1.2rem;
+	padding-top: 150px;
+}
+
+#wordpressInfo {
+	padding-top: 150px;
+	padding-left: 200px;
+}
+
+#start {
+	background: #c60f0e;
+}
+
+#start:hover {
+	background: #ca3c3c;
+}
+
+#hostingPlans {
+	background: #5383a1;
+}
+
+#hostingPlans:hover {
+	background: #344c6e;
+}
+
+#home-heading {
+	position: relative;
+	min-height: 300px;
+	background: url('../img/techSupport.jpg');
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+.dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#wordPress {
+	min-height: 400px;
+}
+
+#faq .card {
+	border: #444;
+}
+
+#faq a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+	background: #333;
+}
+
+#main-footer {
+	background: #2e3338;
+	margin-top: 0;
+	padding: 0;
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	#wordpressInfo {
+		margin-left: -150px;
+	}
+}
